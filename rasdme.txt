@@ -1,0 +1,28 @@
+
+
+elements
+تغيير الصورة 
+
+
+dark
+
+background-color
+#151515
+
+box
+#222222
+
+#0b111e
+
+
+
+<i class="fas fa-moon"></i>
+<i class="fas fa-sun icon-sun"></i>
+
+
+
+
+
+
+
+
