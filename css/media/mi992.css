@@ -1,0 +1,60 @@
+
+
+/* 
+
+&&& medium 
+
+
+*/
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+
+
+    /* 6 details meals */
+    .details-meals .container .top .right .recent .cont .right h3 {
+        font-size: 15px;
+    }
+
+
+    /* 7 start order */
+    /* .orders .container .order .cont .ord-st {
+        text-align: center;
+    }
+
+    .orders .container .order .cont .con p {
+        background-color: #2ce5c0;
+    }
+
+    .orders .container .order .cont .pen p {
+        background-color: #ffb74d;
+    }
+    
+    .orders .container .order .cont .ord-st p {
+        padding: 5px 0px;
+        color: #fff;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

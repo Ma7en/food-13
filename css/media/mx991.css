@@ -1,0 +1,317 @@
+
+
+
+/* start ali page */
+@media (max-width: 991px) {
+
+
+    /* 1 start header */
+    .header .mega-menu .links {
+        min-width: 210px;
+    }
+
+    .header .mega-menu .img img {
+        display: none;
+    }
+
+
+    /* 2 start laning */
+    .landing .container .img {
+        display: none;
+    }
+
+    .landing .container .text {
+        text-align: center;
+    }
+
+    .landing .container .text p {
+        margin: 10px auto;
+    }
+
+    /* 3 stat best meals */
+    .best-meals .container .footer .cont {
+        flex-direction: column;
+    }
+
+    .best-meals .container .footer .cont .left {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .best-meals .container .footer .cont .right {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .best-meals .container .footer .cont .right input[type="email"] {
+        width: 100%;
+    }
+
+    .best-meals .container .top {
+        flex-direction: column-reverse;
+    }
+
+
+
+
+
+    /* 6 start details-meals */
+    .details-meals .container .top {
+        flex-direction: column-reverse;
+    }
+
+    .details-meals .container .top .right .offer {
+        text-align: center;
+    }
+    
+    .details-meals .container .top .right .offer a:hover {
+        box-shadow: 3px 3px 5px 0px #c9c9c9;
+    }
+
+    .details-meals .container .top .right .offer h2 span {
+        color: #3F51B5;
+    }
+
+    .details-meals .container .top .right .recent .cont {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .details-meals .container .top .right .recent .cont {
+        align-items: center;
+    }
+
+    .details-meals .container .top .right .recent .cont .img {
+        flex-basis: 20%;
+    }
+
+    .details-meals .container .top .right .offer {
+        text-align: center;
+    }
+
+
+    /* 7 start order */
+    .orders .container .search {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .orders .container .search .se-1 {
+        flex-basis: 40%;
+    }
+    
+    .orders .container .search .se-2 {
+        flex-basis: 55%;
+    }
+    
+    .orders .container .search .se-3 {
+        flex-basis: 55%;
+    }
+    
+    .orders .container .search .se-4 {
+        flex-basis: 40%;
+    }
+
+
+    .orders .container .order {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .dark .orders .container .order {
+        padding-left: 10px;
+    }
+
+    .orders .container .order .cont {
+        flex-basis: 100%;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        border-bottom: 2px solid #dddddd;
+        padding-right: 10px;
+    }
+
+    .orders .container .order .cont:not(:last-child) {
+        border-bottom: none;
+        /* border-right: 2px solid #dddddd; */
+    }
+
+    .orders .container .order .cont:last-child {
+        border-bottom: none;
+        /* border-right: 2px solid #dddddd; */
+    }
+
+    .orders .container .order .cont .check {
+        flex-basis: 8%;
+    }
+
+    .orders .container .order .cont .check label::before {
+        left: -22px;
+    }
+
+    .orders .container .order .cont-all .img {
+        flex-direction: column;
+    }
+    
+    .orders .container .order .cont .img {
+        flex-basis: 30%;
+    }
+    
+    .orders .container .order .cont .menu {
+        flex-basis: 12%;
+    }
+    
+    .orders .container .order .cont .cust {
+        flex-basis: 15%;
+    }
+    
+    .orders .container .order .cont .quant {
+        flex-basis: 8%;
+    }
+    
+    .orders .container .order .cont .amount {
+        flex-basis: 8%;
+    }
+    
+    .orders .container .order .cont .ord-st {
+        flex-basis: 13%;
+    }
+    
+    .orders .container .order .cont .phone {
+        flex-basis: 13%;
+    }
+
+    .orders .container .order .cont .poli {
+        flex-basis: 3%;
+    }
+
+    .orders .container .order .cont .check {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .orders .container .order .cont-all .menu,
+    .orders .container .order .cont-all .cust,
+    .orders .container .order .cont-all .amount,
+    .orders .container .order .cont-all .ord-st,
+    .orders .container .order .cont-all .phone {
+        align-self: stretch;
+    }
+
+    .orders .container .order .cont .img {
+        align-items: flex-start;
+    }
+
+
+
+
+    /* 11 Start elements */
+    /* .elements .container img {
+        display: none;
+    } */
+
+
+
+    /* 12 Start Work Steps */
+    .work-steps .container {
+        flex-direction: column;
+    }
+
+    .work-steps .image {
+        margin: 0 0 50px;
+    }
+
+    .work-steps .img-top img {
+        width: 300px;
+    }
+
+    .work-steps .info .box {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .work-steps .info .box img {
+        margin: 0 0 40px;
+        width: 100px;
+    }
+
+    /* 13 Start Videos */
+    .videos .holder {
+        flex-direction: column-reverse;
+    }
+
+    .videos .holder .preview .info {
+        text-align: center;
+    }
+
+    .videos .holder .list ul li:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+
+
+
+    /* 14 Start Events */
+    .events img {
+        display: none;
+    }
+
+
+
+    /* 16 start branches */
+    .branches .head .right {
+        flex-direction: column;
+    }
+
+    .branches .head .right h2,
+    .branches .head .right i  {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .branches .posts .post .tils .t-ad .t-ad-1 {
+        margin-bottom: 10px;
+    }
+
+
+
+
+    /* 17 Start Discount */
+    .discount .image,
+    .discount .form {
+        flex-basis: 100%;
+    }
+    
+    .discount .content h2 {
+        margin-top: 25px;
+    }
+
+    .discount .content form {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+}
+
+
+
+
+

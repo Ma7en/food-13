@@ -1,0 +1,335 @@
+
+@media (max-width: 767px) {
+
+
+    /* 1 start header */
+    .header .container .logo {
+        width: 100%;
+        height: 60px;
+    }
+
+    .header .container .main-nav {
+        margin: auto;
+    }
+
+    .header .container .main-nav > li > a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .header .mega-menu {
+        flex-direction: column;
+        gap: 0;
+        padding: 5px;
+    }
+
+    .header .mega-menu .links:first-of-type li {
+        border-bottom : 1px solid #e6e6e6;
+    }
+
+
+
+    /* 2 start landing */
+    .landing::before {
+        height: 102%;
+        transform: skewY(-25deg);
+        -webkit-transform: skewY(-25deg);
+        -moz-transform: skewY(-25deg);
+        -ms-transform: skewY(-25deg);
+        -o-transform: skewY(-25deg);
+    }
+
+    .landing .container .text h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .landing .container .text p {
+        font-size: 18px;
+    }
+
+    .landing .go-down {
+        bottom: 50px;
+    }
+
+
+
+
+    /* 6 start details-meals */
+    .details-meals .container .top .left .cont {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    .details-meals .container .top .left .cont .img {
+        width: 200px;
+    }
+
+    .details-meals .container .top .left .cont .right {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .details-meals .container .top .right .recent .cont {
+        flex-direction: column;
+    }
+
+    .details-meals .container .top .right .recent .cont .img {
+        width: 150px;
+    }
+
+    .details-meals .container .top .right .recent .cont .right {
+        text-align: center;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .details-meals .container .top .right .recent .cont .right .day {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details-meals .container .top .right .sear i {
+        right: 40px;
+    }
+    
+    .details-meals .container .top .right .insta .cont li {
+        flex-basis: 50%;
+    }
+
+    .details-meals .container .le-ri {
+        flex-basis: 50%;
+    }
+
+
+    
+
+
+
+    /* 5 Start Features */
+    .features .container .box .img-holder::before {
+        top: -1px;
+    }
+
+    .features .container .box .img-holder::after {
+        border-width: 0px 0px 170px 570px;
+    }
+
+    .features .container .box:hover .img-holder::after {
+        border-width: 170px 570px 170px 0px ;
+    }
+
+
+
+    /* 7 start order */
+    .orders .container .search {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .orders .container .footer-or {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .orders .container .order .cont:not(:first-child) .ord-st p {
+        width: 60px;
+    }
+
+    .orders .container .order,
+    .orders .container .order .cont:not(:first-child) .phone p {
+        font-size: 11px;
+    }
+
+
+    .orders .container .footer-or .right > a {
+        font-size: 15px;
+    }
+
+    .orders .container .footer-or .right ul li a {
+        font-size: 20px;
+    }
+
+
+
+
+    /* 8 Start Testimonials */
+    .testimonials .container {
+        row-gap: 30px;
+    }
+
+
+
+    /* 11 start elements */
+    .elements .container {
+        flex-direction: column;
+    }
+
+    .elements .container .img img {
+        width: 200px;
+    }
+
+    .elements .skills {
+        width: 100%;
+    }
+
+
+
+    
+
+    /* 14 Start Events */
+    .events .dots-up, 
+    .events .dots-down{
+        display: none;
+    }
+
+    .events .subscribe form {
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    .events .subscribe form input[type="email"],
+    .events .subscribe form input[type="submit"] {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+
+
+
+    /* 15 Start Stats */
+    .stats .box:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+
+    /* 16 start branches */
+    .branches .head .right h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .branches .posts .post .cont {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .branches .posts .post .cont .day {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .branches .posts .post .tils {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .branches .posts .post .tils .t-ad {
+        text-align: center;
+    }
+
+    .branches .posts .post .tils .t-ad .t-ad-1 {
+        margin: 10px 10px;
+    }
+
+
+
+
+
+    /* 18 Start contact */
+    /* .contact {
+        text-align: center;
+    } */
+
+    /* .contact .box .social {
+        justify-content: center;
+    } */
+
+    .contact .box .links {
+        margin: 30px 0;
+    }
+
+    /* .contact .box .line {
+        flex-direction: column;
+    } */
+
+    .contact .box .line i {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .contact .box .line .info {
+        padding: 0 20px;
+    }
+
+
+
+    /* 19 start footer */
+    .footer .copyright {
+        font-size: 20px;
+    }
+
+    .footer .copyright {
+        flex-direction: column;
+    }
+
+    .footer .copyright p {
+        font-size: 20px;
+    }
+
+    .footer .copyright a {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

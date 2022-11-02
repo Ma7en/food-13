@@ -1,0 +1,247 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../../img/signup/background.jpg");
+    background-size: cover;
+}
+
+:root {
+    --main-color: #2196f3;
+    --color-f: #999999;
+}
+
+
+/* start form */
+.parent .container {
+    display: flex;
+    justify-content: center;
+}
+
+.parent .form {
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 370px;
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent .form .main-title {
+    margin-bottom: 20px;
+}
+
+.parent .form .cont {
+    margin: 40px 0;
+    color: var(--color-f);
+    caret-color: var(--main-color);
+    border-bottom: 2px solid var(--color-f);
+    padding: 15px 0;
+    position: relative;
+}
+
+.parent .form .cont i:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.parent .form .cont i.ey-sh,
+.parent .form .cont i.ey-sh-2 {
+    display: none;
+}
+
+.parent .form .cont i.ey-sh,
+.parent .form .cont i.ey-hi,
+.parent .form .cont i.ey-sh-2,
+.parent .form .cont i.ey-hi-2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transition: var(--main-transition);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.parent .form .cont i.ey-sh:hover,
+.parent .form .cont i.ey-hi:hover,
+.parent .form .cont i.ey-sh-2:hover,
+.parent .form .cont i.ey-hi-2:hover {
+    color: var(--main-color);
+}
+
+.parent .form .cont input {
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 90%;
+}
+
+.parent .form .cont input:focus {
+    outline: none;
+}
+
+.parent .form .cont .progerss_name,
+.parent .form .cont .progerss_email,
+.parent .form .cont .progerss_pass_1,
+.parent .form .cont .progerss_pass_2 {
+    background-color: #3196f3;
+    height: 2px;
+    width: 0px;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.parent .form .cont .count_name,
+.parent .form .cont .count_email,
+.parent .form .cont .count_pass_1,
+.parent .form .cont .count_pass_2 {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+}
+
+.zero {
+    font-weight: bold;
+    color: red;
+}
+
+
+
+.parent .form input[type="submit"] {
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.parent .form input[type="submit"]:hover {
+    background-color: var(--color-f);
+}
+
+.parent .form .here {
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px dashed var(--color-f);
+    padding-bottom: 20px;
+}
+
+.parent .form .here p {
+    color: #999999;
+}
+
+.parent .form .here p a {
+    color: var(--main-color);
+    font-weight: bold;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.parent .form .here p a:hover {
+    color: var(--color-f);
+}
+
+.parent .form .icon {
+    text-align: center;
+}
+
+.parent .form .icon .i {
+    text-align: center;
+    align-items: center;
+    margin: 20px 0 5px;
+}
+
+.parent .form .icon h3 {
+    margin-bottom: 20px;
+    opacity: .8;
+}
+
+.parent .form .icon i {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding-top: 7px;
+    text-align: center;
+    transition: all .5s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.parent .form .icon .i a i.fa-facebook-f {
+    background-color: #3b5998;
+}
+
+.parent .form .icon .i a i.fa-twitter {
+    background-color: #1da1f2;
+}
+
+.parent .form .icon .i a i.fa-google {
+    background-color: #db4437;
+}
+
+.parent .form .icon .i a i:hover {
+    transition: all .5s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+
+@media (max-width: 480px) {
+
+    .food .container .top .left .cont .right > p {
+        margin: 0;
+    }
+    .food .container .top .left .cont .right {
+        padding: 0;
+    }
+    
+    .food .container .top .left .cont .right .data {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .food .container .top .left .cont .right .data span {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
